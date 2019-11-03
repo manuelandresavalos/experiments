@@ -106,9 +106,3 @@ function generateAsteroids(arrAsteroids) {
 
 	return arrAsteroids;
 }
-
-function collitions(nave, asteroidsArr) {
-	asteroidsArr.forEach((asteroid) => {
-		asteroid.circleColor = '#0000FF';
-	});
-}
